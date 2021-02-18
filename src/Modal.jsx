@@ -6,7 +6,7 @@ export default class Modal extends React.Component {
             const modal = document.querySelector('.modal')
             modal.style.display = "none"
 
-            document.querySelector('.pop').style.display = "none"
+            document.querySelector('.pop').remove()
         }
 
         return(

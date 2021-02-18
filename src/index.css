@@ -26,8 +26,8 @@ body {
   position: fixed;
   display: none;
   z-index: 2;
-  left: 50%;
-  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
 }
 
 @font-face {
