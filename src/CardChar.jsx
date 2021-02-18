@@ -13,7 +13,7 @@ export default class CardChar extends React.Component {
                   <p>{this.props.char.descricao}</p>
                 </div>
               </div>
-              <Button personagem={this.props.char}/>
+              {/*<Button personagem={this.props.char}/>*/}
             </div>
         )
     }

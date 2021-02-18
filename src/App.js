@@ -7,9 +7,11 @@ import Modal from './Modal'
 
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
+import imagemStrange from './img/strange.png'
 import imagemRaditz from './img/raditz.png'
 import imagemOnePiece from './img/onepiece.png'
 import imagemDC from './img/dc.png'
+import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
 export default class App extends React.Component {
@@ -38,6 +40,17 @@ export default class App extends React.Component {
       },
 
       char3: {
+        nome: 'Stephen Strange',
+        imagem: imagemStrange,
+        descricao: 'Doutor Stephen Vincent Strange, mais conhecido como Doutor Estranho. Doutor Estranho serve como o Mago Supremo, o principal protetor da Terra contra ameaças mágicas e místicas. Inspirado por histórias de magia negra e o programa de rádio Chandu, the Magician, Strange foi criado durante a Era de Prata das histórias em quadrinhos americanas para trazer um tipo diferente de personagem e temas de misticismo para a Marvel Comics.',
+        id: 'strange',
+        universo: {
+          imagemUniverso: imagemMarvel,
+          fontUniverso: 'SuperSmash'
+        }
+      },
+
+      char4: {
         nome: 'Raditz',
         imagem: imagemRaditz,
         descricao: 'Ao contrário de seu irmão Goku, Raditz é mau e brutal como muitos guerreiros Saiyajin. Ele dá, porém, a chance a seu irmão de participar do império de Freeza, e só atacando Goku quando ele recusa e protesta contra seus planos. Ele gosta de zombar de oponentes mais fracos, e de brincar com eles antes de finalmente os matarem; mostrado quando ele zomba de Piccolo, e tendo grande prazer de ver seu próprio irmão Goku e sobrinho Gohan com dor. Ele é incrivelmente manipulador, implorando a Goku que solte sua cauda quando Goku a aperta. Goku o faz e Raditz o ataca tremendamente, e começa a esmagar suas costelas enquanto ri.',
@@ -51,12 +64,13 @@ export default class App extends React.Component {
 
     return(
       <div>
-        <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id}/>
+        <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <h1>NOvos Personagens:</h1>
         <div>
           <CardChar char={personagens.char1}/>
           <CardChar char={personagens.char2}/>
           <CardChar char={personagens.char3}/>
+          <CardChar char={personagens.char4}/>
         </div>
       </div>
     )
