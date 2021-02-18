@@ -23,9 +23,11 @@ body {
 }
 
 .pop {
-  position: absolute;
+  position: fixed;
   display: none;
   z-index: 2;
+  left: 50%;
+  margin-left: -50px;
 }
 
 @font-face {
