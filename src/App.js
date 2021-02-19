@@ -1,9 +1,10 @@
 import React from 'react'
 import './App.css';
-import CardChar from './CardChar';
+import CardNewChar from './CardNewChar';
 import Menu from './Menu'
 import Pop from './Pop';
 import Modal from './Modal'
+import Lista from './Lista'
 
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
@@ -64,14 +65,18 @@ export default class App extends React.Component {
 
     return(
       <div>
-        <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
+        {/*<Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>*/}
         <h1>NOvos Personagens:</h1>
         <div>
-          <CardChar char={personagens.char1}/>
-          <CardChar char={personagens.char2}/>
-          <CardChar char={personagens.char3}/>
-          <CardChar char={personagens.char4}/>
+          <CardNewChar char={personagens.char1}/>
+          <CardNewChar char={personagens.char2}/>
+          <CardNewChar char={personagens.char3}/>
+          <CardNewChar char={personagens.char4}/>
         </div>
+        <section>
+          <h1>outrOs Personagens:</h1>
+            <Lista />
+        </section>
       </div>
     )
   }
