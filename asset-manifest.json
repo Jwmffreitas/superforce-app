@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/superforce-app/static/css/main.d07bdcc2.chunk.css",
-    "main.js": "/superforce-app/static/js/main.03cfda21.chunk.js",
-    "main.js.map": "/superforce-app/static/js/main.03cfda21.chunk.js.map",
+    "main.css": "/superforce-app/static/css/main.83678b67.chunk.css",
+    "main.js": "/superforce-app/static/js/main.3a62f4c9.chunk.js",
+    "main.js.map": "/superforce-app/static/js/main.3a62f4c9.chunk.js.map",
     "runtime-main.js": "/superforce-app/static/js/runtime-main.a4357e60.js",
     "runtime-main.js.map": "/superforce-app/static/js/runtime-main.a4357e60.js.map",
     "static/js/2.160c1438.chunk.js": "/superforce-app/static/js/2.160c1438.chunk.js",
     "static/js/2.160c1438.chunk.js.map": "/superforce-app/static/js/2.160c1438.chunk.js.map",
     "index.html": "/superforce-app/index.html",
-    "static/css/main.d07bdcc2.chunk.css.map": "/superforce-app/static/css/main.d07bdcc2.chunk.css.map",
+    "static/css/main.83678b67.chunk.css.map": "/superforce-app/static/css/main.83678b67.chunk.css.map",
     "static/js/2.160c1438.chunk.js.LICENSE.txt": "/superforce-app/static/js/2.160c1438.chunk.js.LICENSE.txt",
     "static/media/SuperForce.4b2c5555.png": "/superforce-app/static/media/SuperForce.4b2c5555.png",
+    "static/media/ace.16598f14.png": "/superforce-app/static/media/ace.16598f14.png",
     "static/media/dc.caacbf87.png": "/superforce-app/static/media/dc.caacbf87.png",
     "static/media/dragonball.7e150dd3.png": "/superforce-app/static/media/dragonball.7e150dd3.png",
     "static/media/harley.e60160a3.png": "/superforce-app/static/media/harley.e60160a3.png",
@@ -19,12 +20,13 @@
     "static/media/onepiece.21ec91f1.png": "/superforce-app/static/media/onepiece.21ec91f1.png",
     "static/media/index.css": "/superforce-app/static/media/supersmash.e8c447df.ttf",
     "static/media/raditz.b8edba3f.png": "/superforce-app/static/media/raditz.b8edba3f.png",
-    "static/media/strange.ab5a7d76.png": "/superforce-app/static/media/strange.ab5a7d76.png"
+    "static/media/strange.ab5a7d76.png": "/superforce-app/static/media/strange.ab5a7d76.png",
+    "static/media/vegeta.7e9b2c13.png": "/superforce-app/static/media/vegeta.7e9b2c13.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4357e60.js",
     "static/js/2.160c1438.chunk.js",
-    "static/css/main.d07bdcc2.chunk.css",
-    "static/js/main.03cfda21.chunk.js"
+    "static/css/main.83678b67.chunk.css",
+    "static/js/main.3a62f4c9.chunk.js"
   ]
 }
