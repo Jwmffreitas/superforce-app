@@ -15,8 +15,8 @@ export default class Button extends React.Component {
 
         return(
             <Fragment>
-                <button onClick={openPop}>{this.props.personagem.nome}</button>
-                <Pop personagem={this.props.personagem}/>
+                <button>Visualizar</button>
+                {/*<Pop personagem={this.props.personagem}/>*/}
             </Fragment>
         )
     }

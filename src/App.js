@@ -73,10 +73,10 @@ export default class App extends React.Component {
           <CardNewChar char={personagens.char3}/>
           <CardNewChar char={personagens.char4}/>
         </div>
-        <section>
+        {/*<section>
           <h1>outrOs Personagens:</h1>
             <Lista />
-        </section>
+        </section>*/}
       </div>
     )
   }

@@ -11,9 +11,9 @@ export default class CardNewChar extends React.Component {
                 <h1 style={{fontFamily: this.props.char.universo.fontUniverso}}>{this.props.char.nome}</h1>
                 <div>
                   <p>{this.props.char.descricao}</p>
+                  <Button personagem={this.props.char}/>
                 </div>
               </div>
-              {/*<Button personagem={this.props.char}/>*/}
             </div>
         )
     }
