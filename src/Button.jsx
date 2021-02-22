@@ -10,7 +10,7 @@ export default class Button extends React.Component {
             const modal = document.querySelector('.modal')  
             modal.style.display = "block"
             
-            document.querySelector(`#${personagemID}`).style.display = "flex"
+            document.querySelector(`#${personagemID}`).style.display = "grid"
         }
 
         return(

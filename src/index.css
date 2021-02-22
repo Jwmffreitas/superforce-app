@@ -27,7 +27,6 @@ body {
   display: none;
   background-color: white;
   border-radius: 5px;
-  padding-right: 10px;
   color: black;
   z-index: 2;
   left: 50%;
@@ -64,7 +63,13 @@ h1 {
 
 ul {
   list-style: none;
-}li {cursor: pointer;}
+  padding: 0;
+  margin: 0;
+  padding-right: 45px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}li {cursor: pointer;  padding: 10px; border: black solid 2px; width: 100%; font-family: SuperSmash; font-weight: 500;}
 
 /*.lista {
   margin: 10px;
@@ -127,6 +132,9 @@ ul {
   margin-top: 5px;
   font-family: Arial;
   cursor: pointer;
+}.card-NewChar button:hover {
+  color: black;
+  background-color: white;
 }
 
 .cardInformacoes-NewChar {

@@ -15,6 +15,8 @@ import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
+import videolaw from './img/videos/law-super1.mp4'
+
 export default class App extends React.Component {
   render() {
     var personagens = {
@@ -25,7 +27,7 @@ export default class App extends React.Component {
         id: 'law',
         especiais: {
           especial1: 'https://www.youtube.com/embed/ql-_GTmRyJc',
-          especial2: '',
+          especial2: videolaw,
           especial3: '',
         },
         universo: {

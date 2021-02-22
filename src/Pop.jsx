@@ -21,8 +21,8 @@ export default class Pop extends React.Component {
         }
         return(
             <div id={this.props.personagem.id} className="pop">
-                <div style={{boxShadow: 'gray 5px 0px 5px'}}>
-                    <iframe id={idVideo} width="560" height="315" src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div>
+                    <iframe id={idVideo} style={{boxShadow: 'gray 0px 10px 10px'}} width="560" height="315" src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div>
                     <ul>
