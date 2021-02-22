@@ -64,7 +64,7 @@ h1 {
 
 ul {
   list-style: none;
-}
+}li {cursor: pointer;}
 
 /*.lista {
   margin: 10px;
