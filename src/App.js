@@ -65,7 +65,7 @@ export default class App extends React.Component {
 
     return(
       <div>
-        {/*<Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>*/}
+        <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <h1>NOvos Personagens:</h1>
         <div>
           <CardNewChar char={personagens.char1}/>

@@ -10,12 +10,12 @@ export default class Button extends React.Component {
             const modal = document.querySelector('.modal')  
             modal.style.display = "block"
             
-            document.querySelector(`#${personagemID}`).style.display = "block"
+            //document.querySelector(`#${personagemID}`).style.display = "block"
         }
 
         return(
             <Fragment>
-                <button>Visualizar</button>
+                <button onClick={openPop}>Visualizar</button>
                 {/*<Pop personagem={this.props.personagem}/>*/}
             </Fragment>
         )
