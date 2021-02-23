@@ -15,6 +15,8 @@ import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
+import zoro from './img/zoro.png'
+
 export default class App extends React.Component {
   render() {
     var personagens = {
@@ -86,8 +88,18 @@ export default class App extends React.Component {
     return(
       <div>
         <Menu />
-        <section>
-
+        <section className="home">
+          <div>
+            <h1>Super FOrce X</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div>
+              <button>Ver Trailer</button>
+              <button>Download</button>
+            </div>
+          </div>
+          <div>
+            <img src={zoro}/>
+          </div>
         </section>
         <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <h1>NOvos Personagens:</h1>
