@@ -77,6 +77,10 @@ header li:hover {
   }
 }
 
+
+
+/*-------------------------HOME----------------------------*/
+
 h1 {
   font-family: SuperSmash;
   font-size: clamp(20px ,3.1vw, 40px);
@@ -125,6 +129,19 @@ ul {
   color: white !important;
   border: black solid 1px;
 }
+
+/*-------------------------STORY----------------------------
+
+.story {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(black);
+  padding: 0px 100px 0px 100px;
+  text-align: left;
+}.story p {max-width: 800px; text-align: left;}
+
+
+/*-------------------------CARD-NEWCHAR----------------------------*/
 
 .card-NewChar {
   background: rgba(0,0,0,0.8);
