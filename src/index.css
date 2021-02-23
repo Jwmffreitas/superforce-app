@@ -53,10 +53,18 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }header img {
-  width: 100px;
+  width: 80px;
   height: auto;
+} header ul { margin-top: 10px;}
+header li {font-size: 1vw;}
+header li:hover {
+  border-bottom: white solid 1px;
 }
 
 h1 {
