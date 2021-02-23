@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css';
 import CardNewChar from './CardNewChar';
 import Menu from './Menu'
-import Pop from './Pop';
 import Modal from './Modal'
 import Lista from './Lista'
 
@@ -10,12 +9,11 @@ import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
 import imagemStrange from './img/strange.png'
 import imagemRaditz from './img/raditz.png'
+
 import imagemOnePiece from './img/onepiece.png'
 import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
-
-import videolaw from './img/videos/law-super1.mp4'
 
 export default class App extends React.Component {
   render() {
@@ -26,9 +24,9 @@ export default class App extends React.Component {
         descricao: 'Trafalgar D. Water Law, mais comumente conhecido como apenas Trafalgar Law e por seu epíteto como o "Cirurgião da Morte", é um pirata do North Blue e capitão e médico dos Piratas Heart. Ele é um dos doze piratas que são referidos como a "Pior Geração". Ele se tornou um dos Shichibukai durante o timeskip, mas sua posição foi revogada por se aliar aos Piratas do Chapéu de Palha e derrubar Donquixote Doflamingo. Law, como muitos outros piratas, sonha em encontrar o One Piece.',
         id: 'law',
         especiais: {
-          especial1: 'https://www.youtube.com/embed/ql-_GTmRyJc',
-          especial2: videolaw,
-          especial3: '',
+          especial1: 'https://www.youtube.com/embed/Oo5qcWp3TSo',
+          especial2: 'https://www.youtube.com/embed/2EpMWAsVkrw',
+          especial3: 'https://www.youtube.com/embed/jwdouLWnAXY',
         },
         universo: {
           imagemUniverso: imagemOnePiece,
@@ -89,7 +87,7 @@ export default class App extends React.Component {
       <div>
         <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <h1>NOvos Personagens:</h1>
-        <div>
+        <div className="newChars">
           <CardNewChar char={personagens.char1}/>
           <CardNewChar char={personagens.char2}/>
           <CardNewChar char={personagens.char3}/>

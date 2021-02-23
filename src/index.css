@@ -1,12 +1,30 @@
+@font-face {
+  font-family: "OnePiece";
+  src: url("./font/onepiece.ttf")
+}
+
+@font-face {
+  font-family: "SuperSmash";
+  src: url("./font/supersmash.ttf")
+}
+
+@font-face {
+  font-family: "Sayan";
+  src: url("./font/sayan.ttf")
+}
+
 body {
   background-color: rgb(0, 0, 0);
   color: white;
-  display: grid;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   margin: 0;
   font-family: Arial;
+}
+
+.newChars {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal {
@@ -32,21 +50,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50%;
-}
-
-@font-face {
-  font-family: "OnePiece";
-  src: url("./font/onepiece.ttf")
-}
-
-@font-face {
-  font-family: "SuperSmash";
-  src: url("./font/supersmash.ttf")
-}
-
-@font-face {
-  font-family: "Sayan";
-  src: url("./font/sayan.ttf")
 }
 
 header {
