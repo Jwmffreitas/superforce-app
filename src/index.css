@@ -123,7 +123,7 @@ ul {
 }.home button:hover {
   color: black;
   background-color: white;
-}.download {background: none !important; transition: 500ms;}
+}.download {background: none !important; transition: 500ms; width: 100% !important;}
 .download:hover {
   background-color: black !important;
   color: white !important;
