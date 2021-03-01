@@ -6,6 +6,8 @@ import Modal from './Modal'
 import Lista from './Lista'
 import Home from './Home'
 
+import axios from 'axios'
+
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
 import imagemStrange from './img/strange.png'
@@ -18,8 +20,25 @@ import imagemDragonBall from './img/dragonball.png'
 
 import imagemMugen from './img/mugen.png'
 
+const api = axios.create({
+  baseURL: './personagens.json'
+})
+
 export default class App extends React.Component {
+
+  state= {
+    personagens: {}
+  }
+
+  async componentDidMount() {
+    const response = await api.get('')
+    console.log(response.data)
+    this.setState({personagens: response.data})
+  }
+
   render() {
+
+
     var personagens = {
       char1: {
         nome: 'Trafalgar D. Water Law',

@@ -4,7 +4,7 @@ import Pop from './Pop'
 export default class Button extends React.Component {
     render() {
         var personagemID = this.props.personagem.id
-        console.log(personagemID)
+        //console.log(personagemID)
 
         function openPop() {
             const modal = document.querySelector('.modal')  
