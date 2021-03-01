@@ -5,7 +5,7 @@ import CardNewChar from './CardNewChar'
 export default class Lista extends React.Component {
     render(){
         return(
-          <div>
+          <div id="NewChars">
             <h1>NOvos Personagens:</h1>
             <div className="newChars">
               <CardNewChar char={this.props.char1}/>

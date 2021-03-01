@@ -8,9 +8,9 @@ export default class Menu extends React.Component {
                 <img src={Logo}></img>
                 <div>
                     <ul>
-                        <li>Home</li>
+                        <li><a href="#home">Home</a></li>
                         <li>Story</li>
-                        <li>Characters</li>
+                        <li><a href="#NewChars">Characters</a></li>
                     </ul>
                 </div>
             </header>
