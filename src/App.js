@@ -32,12 +32,11 @@ export default class App extends React.Component {
 
   async componentDidMount() {
     const response = await api.get('')
-    console.log(response.data)
+    //console.log(response.data)
     this.setState({personagens: response.data})
   }
 
   render() {
-
 
     var personagens = {
       char1: {
