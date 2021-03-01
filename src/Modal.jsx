@@ -6,7 +6,7 @@ export default class Modal extends React.Component {
         var personagemID2 = this.props.char2
         var personagemID3 = this.props.char3
         var personagemID4 = this.props.char4
-        console.log(personagemID1)
+        //console.log(personagemID1)
 
         function closeModal() {
             const modal = document.querySelector('.modal')

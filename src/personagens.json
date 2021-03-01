@@ -1,5 +1,5 @@
 {
-    "Dragon Ball": {
+    "DragonBall": {
         "imagemUniverso": "./img/dragonball.png",
         "font": "SuperSmash",
         "personagens": [
@@ -17,7 +17,7 @@
         ]
     },
 
-    "DC Comics": {
+    "DCComics": {
         "imagemUniverso": "./img/dc.png",
         "font": "SuperSmash",
         "personagens": [
@@ -53,7 +53,7 @@
         ]  
     },
 
-    "One Piece": {
+    "OnePiece": {
         "imagemUniverso": "./img/onepiece.png",
         "font": "OnePiece",
         "personagens": [

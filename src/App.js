@@ -6,7 +6,7 @@ import Modal from './Modal'
 import Lista from './Lista'
 import Home from './Home'
 
-import axios from 'axios'
+import api from './Api'
 
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
@@ -18,12 +18,6 @@ import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
-import imagemMugen from './img/mugen.png'
-
-const api = axios.create({
-  baseURL: './personagens.json'
-})
-
 export default class App extends React.Component {
 
   state= {
@@ -31,9 +25,10 @@ export default class App extends React.Component {
   }
 
   async componentDidMount() {
-    const response = await api.get('')
-    //console.log(response.data)
-    this.setState({personagens: response.data})
+    const response =  await fetch("./personagens.json", {method:'GET'}); 
+    const data = await response.json();
+    console.log(data)
+    //this.setState({personagens: data})
   }
 
   render() {
