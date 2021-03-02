@@ -18,7 +18,7 @@ import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
-var requestURL = 'https://github.com/Jwmffreitassuperforce-app/blob/main/src/personagens.json'
+var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
