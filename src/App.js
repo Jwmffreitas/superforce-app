@@ -18,18 +18,38 @@ import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
+var requestURL = 'https://github.com/Jwmffreitassuperforce-app/blob/main/src/personagens.json'
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var personagens = request.response;
+  populateHeader(personagens);
+  showHeroes(personagens);
+}
+
+function populateHeader(jsonObj) {
+  console.log(jsonObj)
+}
+
+function showHeroes(jsonObj) {
+
+}
+
 export default class App extends React.Component {
 
-  state= {
-    personagens: {}
+  /*state = {
+    personagens: [],
   }
 
   async componentDidMount() {
-    const response =  await fetch("./personagens.json", {method:'GET'}); 
-    const data = await response.json();
-    console.log(data)
-    //this.setState({personagens: data})
-  }
+    const response = await api.get('personagens/OnePiece');
+
+    this.setState({ personagens: response.data });
+    console.log(response.data)
+  }*/
 
   render() {
 
