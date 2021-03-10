@@ -1,12 +1,9 @@
 import React from 'react'
 import './App.css';
-import CardNewChar from './CardNewChar';
 import Menu from './Menu'
 import Modal from './Modal'
 import Lista from './Lista'
 import Home from './Home'
-
-import api from './Api'
 
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
@@ -123,15 +120,6 @@ export default class App extends React.Component {
       <div>
         <Menu />
         <Home />
-        {/*<section className="story">
-            <div>
-              <h1>Story</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus faucibus ornare suspendisse sed nisi lacus. Quis hendrerit dolor magna eget est lorem ipsum dolor. Semper auctor neque vitae tempus. Pellentesque habitant morbi tristique senectus et netus et. Aenean pharetra magna ac placerat. Et leo duis ut diam quam nulla porttitor massa. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Eu mi bibendum neque egestas. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Enim nunc faucibus a pellentesque. Tristique senectus et netus et. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Amet dictum sit amet justo donec enim.</p>
-            </div>
-            <div>
-              <img src={imagemMugen}/>
-            </div>
-    </section>*/}
         <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <Lista char1={personagens.char1} char2={personagens.char2} char3={personagens.char3} char4={personagens.char4}/>
       </div>
