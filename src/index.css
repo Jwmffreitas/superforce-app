@@ -140,15 +140,16 @@ ul {
   border: black solid 1px;
 }
 
-/*-------------------------STORY----------------------------
+/*-------------------------STORY----------------------------*/
 
 .story {
-  display: flex;
-  align-items: center;
-  background-image: linear-gradient(black);
-  padding: 0px 100px 0px 100px;
+  background-image: linear-gradient(rgb(15, 83, 15), black);
+  padding: 50px 6.25vw 50px 6.25vw;
   text-align: left;
-}.story p {max-width: 800px; text-align: left;}
+}.story h1 {margin: 0; text-align: center;  font-size: clamp(25px ,4vw, 50px);}
+.story h2 {font-family: Smash; font-size: clamp(20px ,3vw, 30px);}
+.story p {max-width: 800px; text-align: left;}
+.story img {width: 19vw; height: auto; min-width: 280px; border-left: white solid 1px; padding-left: 50px;}
 
 
 /*-------------------------CARD-NEWCHAR----------------------------*/

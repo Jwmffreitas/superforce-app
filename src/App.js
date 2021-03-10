@@ -4,6 +4,7 @@ import Menu from './Menu'
 import Modal from './Modal'
 import Lista from './Lista'
 import Home from './Home'
+import Story from './Story'
 
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
@@ -120,6 +121,7 @@ export default class App extends React.Component {
       <div>
         <Menu />
         <Home />
+        <Story />
         <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <Lista char1={personagens.char1} char2={personagens.char2} char3={personagens.char3} char4={personagens.char4}/>
       </div>
