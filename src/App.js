@@ -121,7 +121,7 @@ export default class App extends React.Component {
       <div>
         <Menu />
         <Home />
-        <Story />
+        {/*<Story />*/}
         <Modal char1={personagens.char1.id} char2={personagens.char2.id} char3={personagens.char3.id} char4={personagens.char4.id}/>
         <Lista char1={personagens.char1} char2={personagens.char2} char3={personagens.char3} char4={personagens.char4}/>
       </div>
