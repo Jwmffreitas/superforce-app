@@ -16,7 +16,7 @@ import imagemDC from './img/dc.png'
 import imagemMarvel from './img/marvel.png'
 import imagemDragonBall from './img/dragonball.png'
 
-var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'
+/*var requestURL = './personagens'
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -34,20 +34,28 @@ function populateHeader(jsonObj) {
 
 function showHeroes(jsonObj) {
 
-}
+}*/
 
 export default class App extends React.Component {
 
-  /*state = {
-    personagens: [],
-  }
+state = {
+  personagens: []
+};
 
-  async componentDidMount() {
-    const response = await api.get('personagens/OnePiece');
-
-    this.setState({ personagens: response.data });
-    console.log(response.data)
-  }*/
+componentDidMount() {
+    fetch('./personagens.json', {
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    })
+        .then(res => res.json())
+        .then(res => {
+            this.setState({
+                personagens: res
+            });
+        });
+}
 
   render() {
 
