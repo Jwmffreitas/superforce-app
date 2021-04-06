@@ -119,7 +119,7 @@ ul {
 .home img {width: 31.25vw; transition: 500ms; min-width: 300px;}
 /*.home img:hover {transform: scale(1.05) perspective(2000px) rotateZ(5deg);}*/
 .home button {
-  width: 50%;
+  width: calc(100% - 10px);
   color: white;
   background-color: black;
   border: white solid 1px;
@@ -133,7 +133,7 @@ ul {
 }.home button:hover {
   color: black;
   background-color: white;
-}.download {background: none !important; transition: 500ms; width: 100% !important;}
+}.download {background: none !important; transition: 500ms; width: calc(100% - 10px) !important;}
 .download:hover {
   background-color: black !important;
   color: white !important;
