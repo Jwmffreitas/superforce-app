@@ -43,7 +43,7 @@ state = {
 };
 
 componentDidMount() {
-    fetch('./personagens.json', {
+    /*fetch('https://jsonplaceholder.typicode.com/todos/1', {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -54,10 +54,20 @@ componentDidMount() {
             this.setState({
                 personagens: res
             });
-        });
+        });*/
+
+        fetch('https://jsonplaceholder.typicode.com/todos/1', {
+          headers : { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+           }
+        })
+      .then(response => response.json())
+      .then(json => console.log(json))
 }
 
   render() {
+    //console.log(personagens)
 
     var personagens = {
       char1: {
