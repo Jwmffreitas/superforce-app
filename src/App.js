@@ -56,10 +56,11 @@ componentDidMount() {
             });
         });*/
 
-        fetch('https://jsonplaceholder.typicode.com/todos/1', {
+        fetch('https://brasilapi.com.br/api/cep/v1/26292335', {
           headers : { 
             'Content-Type': 'application/json',
-            'Accept': 'application/json'
+            'Accept': 'application/json',
+            'Origin': 'http://localhost:3000'
            }
         })
       .then(response => response.json())
