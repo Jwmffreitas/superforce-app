@@ -21,7 +21,14 @@ export default class Pop extends React.Component {
         }
         return(
             <div id={this.props.personagem.id} className="pop">
-                <div>
+                <div className="cabeca">
+                    <img src={this.props.personagem.imagem} alt=""/>
+                    <div>
+                        <h1 style={{fontFamily: this.props.personagem.universo.fontUniverso}}>{this.props.personagem.nome}</h1>
+                        <p>{this.props.personagem.descricao}</p>
+                    </div>
+                </div>
+                {/*<div>
                     <iframe id={idVideo} style={{boxShadow: 'gray 0px 10px 10px'}} width="560" height="315" src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div>
@@ -30,7 +37,7 @@ export default class Pop extends React.Component {
                         <li onClick={() => trocarSRC(2)}>Especial 2</li>
                         <li onClick={() => trocarSRC(3)}>Especial 3</li>
                     </ul>
-                </div>
+                </div>*/}
                 {/*<CardNewChar char={this.props.personagem}/>*/}
             </div>
         )
