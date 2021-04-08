@@ -36,7 +36,7 @@ export default class Pop extends React.Component {
                         <button onClick={() => trocarSRC(3)}>ESPECIAL 3</button>
                     </div>
                     <div>
-                        <iframe id={idVideo} style={{width: '400px', height: '255px'}} src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe id={idVideo} style={{width: '400px', height: '230px'}} src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 {/*<div>
