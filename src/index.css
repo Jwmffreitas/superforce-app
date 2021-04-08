@@ -193,6 +193,8 @@ ul {
   background-color: white;
   color: black;
   width: 60%;
+  min-width: 500px;
+  max-width: 700px;
   z-index: 2;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -206,11 +208,21 @@ ul {
   justify-content: center;
 }.pop .cabeca img {
   border: white solid 2px;
-  width: 40%;
+  width: 35%;
   height: auto;
 }.pop .cabeca h1 {
-  margin-top: 10px;
   color: white;
+  margin-top: 50px;
 }.pop .cabeca p {
   color: white;
+  font-size: 17px;
+}
+
+.boxDovideo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}.boxDovideo button {
+  margin: 10px;
 }

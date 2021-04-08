@@ -28,6 +28,17 @@ export default class Pop extends React.Component {
                         <p>{this.props.personagem.descricao}</p>
                     </div>
                 </div>
+                <div style={{width: '60%', borderBottom: 'white solid 1px', margin: '0 auto'}}></div>
+                <div className="boxDovideo">
+                    <div>
+                        <button onClick={() => trocarSRC(1)}>ESPECIAL 1</button>
+                        <button onClick={() => trocarSRC(2)}>ESPECIAL 2</button>
+                        <button onClick={() => trocarSRC(3)}>ESPECIAL 3</button>
+                    </div>
+                    <div>
+                        <iframe id={idVideo} style={{width: '400px', height: '255px'}} src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
                 {/*<div>
                     <iframe id={idVideo} style={{boxShadow: 'gray 0px 10px 10px'}} width="560" height="315" src={especial1} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>

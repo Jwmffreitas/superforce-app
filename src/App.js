@@ -8,7 +8,7 @@ import Story from './Story'
 
 import jason from './novosPersonagens'
 
-import imagemLaw from './img/law.png'
+import imagemLaw from './img/law2.png'
 import imagemHarley from './img/harley.png'
 import imagemStrange from './img/strange.png'
 import imagemRaditz from './img/raditz.png'
