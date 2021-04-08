@@ -22,7 +22,7 @@ export default class Pop extends React.Component {
         return(
             <div id={this.props.personagem.id} className="pop">
                 <div className="cabeca">
-                    <img src={this.props.personagem.imagem} alt=""/>
+                    <img src={this.props.personagem.imagem2} alt=""/>
                     <div>
                         <h1 style={{fontFamily: this.props.personagem.universo.fontUniverso}}>{this.props.personagem.nome}</h1>
                         <p>{this.props.personagem.descricao}</p>
