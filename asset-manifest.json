@@ -1,32 +1,36 @@
 {
   "files": {
-    "main.css": "/superforce-app/static/css/main.c919ddb4.chunk.css",
-    "main.js": "/superforce-app/static/js/main.4b8f0ced.chunk.js",
-    "main.js.map": "/superforce-app/static/js/main.4b8f0ced.chunk.js.map",
+    "main.css": "/superforce-app/static/css/main.e5cbbcba.chunk.css",
+    "main.js": "/superforce-app/static/js/main.0081fbb9.chunk.js",
+    "main.js.map": "/superforce-app/static/js/main.0081fbb9.chunk.js.map",
     "runtime-main.js": "/superforce-app/static/js/runtime-main.a4357e60.js",
     "runtime-main.js.map": "/superforce-app/static/js/runtime-main.a4357e60.js.map",
-    "static/js/2.160c1438.chunk.js": "/superforce-app/static/js/2.160c1438.chunk.js",
-    "static/js/2.160c1438.chunk.js.map": "/superforce-app/static/js/2.160c1438.chunk.js.map",
+    "static/js/2.d89766ae.chunk.js": "/superforce-app/static/js/2.d89766ae.chunk.js",
+    "static/js/2.d89766ae.chunk.js.map": "/superforce-app/static/js/2.d89766ae.chunk.js.map",
     "index.html": "/superforce-app/index.html",
-    "static/css/main.c919ddb4.chunk.css.map": "/superforce-app/static/css/main.c919ddb4.chunk.css.map",
-    "static/js/2.160c1438.chunk.js.LICENSE.txt": "/superforce-app/static/js/2.160c1438.chunk.js.LICENSE.txt",
+    "static/css/main.e5cbbcba.chunk.css.map": "/superforce-app/static/css/main.e5cbbcba.chunk.css.map",
+    "static/js/2.d89766ae.chunk.js.LICENSE.txt": "/superforce-app/static/js/2.d89766ae.chunk.js.LICENSE.txt",
     "static/media/SuperForce.4b2c5555.png": "/superforce-app/static/media/SuperForce.4b2c5555.png",
     "static/media/SxG.7785445a.png": "/superforce-app/static/media/SxG.7785445a.png",
     "static/media/dc.caacbf87.png": "/superforce-app/static/media/dc.caacbf87.png",
     "static/media/dragonball.7e150dd3.png": "/superforce-app/static/media/dragonball.7e150dd3.png",
     "static/media/harley.e60160a3.png": "/superforce-app/static/media/harley.e60160a3.png",
+    "static/media/harley2.c76ce28c.png": "/superforce-app/static/media/harley2.c76ce28c.png",
     "static/media/law.b4a93bf5.png": "/superforce-app/static/media/law.b4a93bf5.png",
+    "static/media/law2.2fd04e88.png": "/superforce-app/static/media/law2.2fd04e88.png",
     "static/media/marvel.b930164b.png": "/superforce-app/static/media/marvel.b930164b.png",
     "static/media/onepiece.21ec91f1.png": "/superforce-app/static/media/onepiece.21ec91f1.png",
     "static/media/index.css": "/superforce-app/static/media/supersmash.e8c447df.ttf",
     "static/media/raditz.b8edba3f.png": "/superforce-app/static/media/raditz.b8edba3f.png",
+    "static/media/raditz2.de0e6d01.png": "/superforce-app/static/media/raditz2.de0e6d01.png",
     "static/media/strange.ab5a7d76.png": "/superforce-app/static/media/strange.ab5a7d76.png",
+    "static/media/strange2.03dd5290.png": "/superforce-app/static/media/strange2.03dd5290.png",
     "static/media/zoro.ec0ca94b.png": "/superforce-app/static/media/zoro.ec0ca94b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4357e60.js",
-    "static/js/2.160c1438.chunk.js",
-    "static/css/main.c919ddb4.chunk.css",
-    "static/js/main.4b8f0ced.chunk.js"
+    "static/js/2.d89766ae.chunk.js",
+    "static/css/main.e5cbbcba.chunk.css",
+    "static/js/main.0081fbb9.chunk.js"
   ]
 }
