@@ -6,6 +6,8 @@ import Lista from './Lista'
 import Home from './Home'
 import Story from './Story'
 
+import jason from './novosPersonagens'
+
 import imagemLaw from './img/law.png'
 import imagemHarley from './img/harley.png'
 import imagemStrange from './img/strange.png'
@@ -38,9 +40,9 @@ function showHeroes(jsonObj) {
 
 export default class App extends React.Component {
 
-state = {
-  personagens: []
-};
+/*state = {
+  personagens: {}
+};*/
 
 componentDidMount() {
     /*fetch('https://jsonplaceholder.typicode.com/todos/1', {
@@ -56,7 +58,9 @@ componentDidMount() {
             });
         });*/
 
-        fetch('https://brasilapi.com.br/api/cep/v1/26292335', {
+        let personagens = {}
+
+        fetch(jason, {
           headers : { 
             'Content-Type': 'application/json',
             'Accept': 'application/json',
@@ -64,11 +68,17 @@ componentDidMount() {
            }
         })
       .then(response => response.json())
-      .then(json => console.log(json))
+      .then(json => {
+        console.log(json)
+        personagens = json
+        console.log(personagens)
+        /*this.setState({
+          personagens: json
+        })*/
+      })
 }
 
   render() {
-    //console.log(personagens)
 
     var personagens = {
       char1: {
